@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a data-tab="intro">Acceuil</a>
+        <a data-tab="experience">Experience</a>
+        <a data-tab="skill">Competence</a>
+        <a data-tab="project">Projets</a>
+        <a data-tab="contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="tab" id="intro">
+      <div class="container">
+        <div class="avatar">
+          <img src="a.png" />
+        </div>
+        <div class="content">
+          <div class="name">Danali Mabanza</div>
+          <div class="job">
+            <span class="text-gradient"> Développeur Web </span>
+          </div>
+          <div class="des">
+            Bienvenue sur mon Portfolio. Passionné de programmation, je prépare
+            un master, pour devenir développeur Web.
+            <br />
+            <a class="text-gradient" data-tab="skill">Voir mes competences</a>
+          </div>
+          <i class="fa-solid fa-quote-right"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" id="experience">
+      <div class="container">
+        <div class="list">
+          <div class="item">
+            <div class="time">2022 / 2023</div>
+            <i class="fa-solid fa-briefcase"></i>>
+            <div class="content">
+              <div class="job">Stage Développeur full-stack Web</div>
+              <div class="company">Vinovae</div>
+              <div class="des">
+                Je devais coder le site de l'entreprise et déployer un programme
+                organisationnel.
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="time">2023</div>
+            <i class="fa-solid fa-school-flag"></i>
+            <div class="content">
+              <div class="job">Enseignement supérieur</div>
+              <div class="company">Hetic</div>
+              <div class="des">
+                Je suis actuellement en deuxième année dans le but d'avoir ma
+                licence en développement web. Mon objectif est de poursuivre mes
+                études pour obtenir un master.
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="time">2023</div>
+            <i class="fa-solid fa-briefcase"></i>
+            <div class="content">
+              <div class="job">Développeur mobile full-stack</div>
+              <div class="company">Client</div>
+              <div class="des">
+                J'ai codé une application mobile de gestion d'évènement, en Dart
+                et React, entre Mars et Aout.
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="time">2024</div>
+            <i class="fa-solid fa-briefcase"></i>
+            <div class="content">
+              <div class="job">Recherche alternance</div>
+              <div class="company">Hetic</div>
+              <div class="des">
+                Dans le cadre de mon cursus, je doit trouver une alternance en
+                dévéloppement web, je recherche une alternance à partir de
+                septembre 2024 qui me permettrait de continuer à mettre en
+                pratique mes compétences techniques et relationnelles.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" id="skill">
+      <div class="container">
+        <div class="list">
+          <div class="item">
+            <i class="fa-brands fa-css3-alt"></i>
+            <div class="name">CSS</div>
+            <div class="des">
+              Les animations avancées, transitions fluides, et flexbox.
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-brands fa-html5"></i>
+            <div class="name">HTML5</div>
+            <div class="des">
+              Structure sémantique, microdata, formulaires, icônes SVG et
+              balises meta.
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-brands fa-js"></i>
+            <div class="name">Javascript</div>
+            <div class="des">
+              Fetch API, DOM Manipulation, programmation asynchrone, traitement
+              des données JSON, fonction fléchée, tests unitaires, express js.
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-brands fa-react"></i>
+            <div class="name">React Js</div>
+            <div class="des">
+              Hooks, routing, Récupération de données avec fetch ou Axios pour
+              les API, gestion des formulaires, animations.
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-brands fa-php"></i>
+            <div class="name">PHP</div>
+            <div class="des">
+              Classes, objets, héritage, interfaces, création d'API REST,
+              authentification utilisateur, gestion des sessions et cookies,
+              maitrise des frameworks tels que Laravel et Symfony, maitrise de
+              XAMPP, WAMP et Docker.
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-brands fa-laravel"></i>
+            <div class="name">Laravel</div>
+            <div class="des">
+              Gestion de la validation des données côté serveur. Manipulation
+              des bases de données avec le modèle objet Eloquent (relations,
+              migrations, seeding). Création et gestion des migrations de bases
+              de données et des seeders pour les données initiales.
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-brands fa-symfony"></i>
+            <div class="name">Symfony</div>
+            <div class="des">
+              Gestion des routes avec annotations, YAML ou XML. Gérer les
+              requêtes HTTP, création d'API RESTful, Doctrine ORM.
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-solid fa-database"></i>
+            <div class="name">SQL / Base de données</div>
+            <div class="des">
+              Requêtes de base tels que SELECT, INSERT, UPDATE, DELETE.
+              Utilisation de WHERE, BETWEEN, IN, jointures, index, utilisation
+              de COUNT(), SUM(), AVG(), MIN(), MAX() pour manipuler des données.
+              Maitrise de Potsgrel, PgAdmin, MySQL, MariaDB, SQLiteQL, MongoDB,
+              Beekeeper studio
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-brands fa-angular"></i>
+            <div class="name">Angular</div>
+            <div class="des">
+              Modules, composants, services, routing, gestion des données
+              asynchrones avec Observables, pipes, et utilisation de l'Angular
+              CLI pour le build et le déploiement d'applications.
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-brands fa-python"></i>
+            <div class="name">Python</div>
+            <div class="des">
+              Classes, objets, héritage, polymorphisme, maitrise de Django et
+              Flask, maitrise des modules comme os, sys, datetime, et math.
+              Gestion des données et création d'applications avec Flask ou
+              Django.
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-brands fa-vuejs"></i>
+            <div class="name">Vue.js</div>
+            <div class="des">
+              Composants asynchrones, slots, utilisation des mixins, vue router,
+              gestion d'état centralisé avec Vuex, Récupération de données d'API
+              avec Axios ou Fetch
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-brands fa-dart-lang"></i>
+            <div class="name">Dart</div>
+            <div class="des">
+              Classes, objets, héritage, interfaces, et mixins. Maitrise des
+              constructeurs nommés, redirectionnés, et constantes. Gestion des
+              flux de données avec Stream, opérations asynchrones et maitrise de
+              Flutter.
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-solid fa-mobile"></i>
+            <div class="name">Flutter</div>
+            <div class="des">
+              Utilisation des widgets, routing, gestion des mises en page
+              flexibles avec Flex, Expanded, GridView, ListView. Gestion des
+              assets, création d'interfaces adaptées aux différentes tailles
+              d'écrans.
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-brands fa-node"></i>
+            <div class="name">Node</div>
+            <div class="des">
+              Utilisation des modules natifs, npm, yarn, création de middleware
+              pour la gestion des requêtes, et authentification.
+            </div>
+          </div>
+
+          <div class="item">
+            <i class="fa-brands fa-github"></i>
+            <div class="name">Github</div>
+            <div class="des">
+              Commit, Pull, Push, Branches, Gestion des dépôts,Pull Requests,
+              GitHub Actions, Permissions, Documentation.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" id="project">
+      <div class="container">
+        <div class="list">
+          <div class="item">
+            <img src="images/whatsapp.11cbb3d4-ffd9-42c1-82bd-e3f305d562b1" />
+            <div class="index">#1</div>
+            <div class="name">Whatsapp programme</div>
+            <div class="des">
+              Au cours de mon cursus j'ai développé le système d'application et
+              de messagerie WhatsApp en PHP, avec l'interface de l'application.
+            </div>
+            <div class="author">
+              <div class="job">FullStack</div>
+              <div class="time">
+                <i class="fa-regular fa-clock"></i>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/finn.png" />
+            <div class="index">#2</div>
+            <div class="name">Application Web gestion d'événements</div>
+            <div class="des">
+              L'application est conçue pour permettre aux utilisateurs de créer,
+              gérer et suivre des événements. Elle utilise une architecture
+              client-serveur, où le frontend et le backend communiquent via une
+              API RESTful. Les données sont stockées dans une base de données
+              PostgreSQL.
+            </div>
+            <div class="author">
+              <div class="job">FullStack</div>
+              <div class="time">
+                <i class="fa-regular fa-clock"></i>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/m.jpg" />
+            <div class="index">#3</div>
+            <div class="name">Rer affichage</div>
+            <div class="des">
+              J'ai codé l'affichage et les données de train en gare en temps
+              réels avec Python et Django.
+            </div>
+            <div class="author">
+              <div class="job">FullStack</div>
+              <div class="time">
+                <i class="fa-regular fa-clock"></i>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/flutter.png" />
+            <div class="index">#4</div>
+            <div class="name">Application mobile</div>
+            <div class="des">
+              J'ai codé une application de gestion d'événement en temps réel sur
+              mobile en React et Dart.
+            </div>
+            <div class="author">
+              <div class="job">FullStack</div>
+              <div class="time">
+                <i class="fa-regular fa-clock"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/php.jpg" />
+            <div class="index">#5</div>
+            <div class="name">Intranet</div>
+            <div class="des">
+              J'ai créé un site en PHP avec un système de connexion. Qui permet
+              de se connecter avec un identifiant et un mot de passe, gérer des
+              sessions utilisateur et utiliser des cookies.
+            </div>
+            <div class="author">
+              <div class="job">FullStack</div>
+              <div class="time">
+                <i class="fa-regular fa-clock"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/finance.png" />
+            <div class="index">#6</div>
+            <div class="name">Simulation de Finance</div>
+            <div class="des">
+              En Python, j’ai développé un programme d'analyse numérique et
+              simulation en finance. Pour prédire les mouvements des marchés
+              financiers en utilisant des méthodes d'analyse numérique.
+            </div>
+            <div class="author">
+              <div class="job">FullStack</div>
+              <div class="time">
+                <i class="fa-regular fa-clock"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" id="contact">
+      <div class="container">
+        <div class="content">
+          <div class="thank text-gradient">Je vous remercie !</div>
+          <div class="des">
+            Je vous remercie par avance pour l'attention et la lecture que vous
+            porterez à mon Portfolio et reste à votre disposition pour toute
+            information complémentaire.
+            <br />
+            <a data-tab="intro" class="text-gradient">Page d'acceuil</a>
+          </div>
+          <div class="list">
+            <div class="item">
+              <i class="fa-solid fa-phone"></i>
+              06-95-07-74-27
+            </div>
+
+            <div class="item">
+              <i class="fa-regular fa-envelope"></i>
+              d_mabanza2@hetic.eu
+            </div>
+
+            <div class="item">
+              <i class="fa-brands fa-github"></i>
+              https://github.com/vacodevacode
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
